@@ -9,7 +9,7 @@ README = io.open(os.path.join(here, 'README.rst'), encoding='UTF-8').read()
 CHANGES = io.open(os.path.join(here, 'CHANGES.rst'), encoding='UTF-8').read()
 
 setup(name="cid",
-      version='0.1.1',
+      version='0.1.2',
       description="Extract Chinese identity card info (gender, birthday \
           and regions)",
       long_description=README + '\n\n' + CHANGES,
@@ -24,6 +24,7 @@ setup(name="cid",
           'Programming Language :: Python :: 3.3',
           'Programming Language :: Python :: 3.4',
           'Programming Language :: Python :: 3.5',
+          'Programming Language :: Python :: 3.6',
           'Topic :: Software Development :: Libraries :: Python Modules',
       ],
       keywords='chinese-identity',
