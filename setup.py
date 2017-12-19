@@ -9,7 +9,7 @@ README = io.open(os.path.join(here, 'README.rst'), encoding='UTF-8').read()
 CHANGES = io.open(os.path.join(here, 'CHANGES.rst'), encoding='UTF-8').read()
 
 setup(name="cid",
-      version='0.1.2',
+      version='0.1.3',
       description="Extract Chinese identity card info (gender, birthday \
           and regions)",
       long_description=README + '\n\n' + CHANGES,
